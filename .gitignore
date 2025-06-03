@@ -1,0 +1,17 @@
+# generated files
+/config.h
+/st
+
+# backup files
+.orig
+
+# Object files
+*.o# generated files
+/config.h
+/dwm
+
+# backup files
+.orig
+
+# Object files
+*.o
