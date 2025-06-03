@@ -9,8 +9,8 @@ OBJ = $(SRC:.c=.o)
 
 all: st
 
-config.h:
-	cp config.def.h config.h
+config.h: config.def.h
+	cp -f config.def.h config.h
 
 .c.o:
 	$(CC) $(STCFLAGS) -c $<
